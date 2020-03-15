@@ -18,10 +18,10 @@
 
        <param name="pointcloud_frame_id" type="string" value="map" />
        <param name="camera_frame_id" type="string" value="camera_link" />
-       <param name="min_num_kf_in_map" type="int" value="20" />
+       <param name="min_num_kf_in_map" type="int" value="3" />
   </node>
 
-  <node pkg="tf" type="static_transform_publisher" name="baselink_broadcaster" args="0 0 0 1.570796325 0 0 /cf_frame /map 100" />
-
+  <!-- <node pkg="tf" type="static_transform_publisher" name="maplink_broadcaster" args="0 0 0 1.570796325 0 -1.570796325 /cf0 /map 100" /> -->
+<!-- 1.570796325 -->
 
 </launch>
