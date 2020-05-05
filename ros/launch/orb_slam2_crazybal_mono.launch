@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <launch>
   <node name="orb_slam2_mono" pkg="orb_slam2_ros"
-      type="orb_slam2_ros_mono" output="screen">
+      type="orb_slam2_ros_mono" >
 
        <!-- <remap from="/camera/image_raw" to="/camera/rgb/image_color" /> -->
 
